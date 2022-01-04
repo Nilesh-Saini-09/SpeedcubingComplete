@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700");
+
+:root {
+  --font1: "Roboto", sans-serif;
+  --font2: "Lato", sans-serif;
+  --nav-footer-background: #1b1b1b;
+  --nav-footer-item-color: #fff;
+  --button-colors: orange;
+}
+
+.text-style-1 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font1);
+  /* letter-spacing: 1px; */
+}
+
+.blog-heading-1 {
+  font-family: var(--font2);
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.btn-1 {
+  padding: 7px;
+  border-radius: 2px;
+  font-family: var(--font1);
+  font-weight: bold;
+  font-size: 13px;
+  color: #333;
+  box-shadow: -3px 3px var(--button-colors), -2px 2px var(--button-colors),
+    -1px 1px var(--button-colors);
+  border: 1px solid var(--button-colors);
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link2 {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLL Trainer</title>
+    <link rel = "icon" href = "logo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="navStyle.css">
+    <link rel="stylesheet" href="mainStyle.css">
+
+    <link rel="stylesheet" href="snackbar.css">
+    
+    <link rel="stylesheet" href="footStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav-container">
+            <nav class="navbar">
+                <a href="./index.html" class="nav-logo">OLL Trainer</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../../../Index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../cubeTimer/index.html" class="nav-link">Cube Timer</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="../pllTrainer/index.html" class="nav-link">PLL Trainer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+    </div>
+        
+        <!--  Main Body  -->
+          <div class="container">
+            <div class="scramble">
+
+                <select name="oType" id="oType" onchange='selectAlg()'>
+                    <option value="1">No Oriented Edge</option>
+                    <option value="2">Two Oriented Edges</option>
+                    <option value="3">Four Edges Oriented</option>
+                  </select>
+
+                  <i class="fas fa-sync-alt fa-xs" id="generateScramble" title="Change Scramble"></i>
+                
+            </div>
+            
+            <div class="scramble">
+                 <span id='scramDisplay'></span>
+            </div>
+
+            <div id='displayTime'>
+                <span id='minute' class='display-4'></span> 
+                <span id='minColon' class='display-4'></span>
+                <span id='second' class='display-4'>0</span> 
+                <span class='display-4'>.</span> 
+                <span id='milliSec' class='display-4'>00</span>
+                
+            </div>
+            <div id="snackbar">Press Spacebar to START/STOP the Timer...</div> 
+
+            <div class="btn-img">
+                <div class="btn-container">
+                    <button class="bg1 bg-btn" onclick="toggleBg('bg1')"></button>
+                    <button class="bg2 bg-btn" onclick="toggleBg('bg2')"></button>
+                    <button class="bg3 bg-btn" onclick="toggleBg('bg3')"></button>
+                    <button class="bg4 bg-btn" onclick="toggleBg('bg4')"></button>
+                </div>
+                <!-- <div class="image-container"></div> -->
+            </div>
+
+          </div>
+          
+        <!--  Footer  -->
+          <div class="footer-container">
+            <div class="footer-left">
+                <a href="../../../Index.html"><span>SpeedcubingComplete &copy; 2021</span></a>
+              </div>
+              <div class="footer-right">
+                <a href="https://www.instagram.com/speedcubingcomplete/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/SpeedcubingC"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com/channel/UC1mkM2CET5iQ4jE5RN6uhLg"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/speedcubingComplete/"><i class="fab fa-facebook"></i></a>
+              </div>
+          </div>
+        </div>
+
+    <script src="oll.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
