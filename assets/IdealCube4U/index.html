@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdealCube4U</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="displayCard.css">
+</head>
+<body>
+    <nav class="active" id="nav">
+        <ul>
+          <li>
+            <select class='cube'>
+                <option value="0">Cube</option>
+                <option value="3x3x3">3x3x3</option>
+                <option value="2x2x2">2x2x2</option>
+                <option value="4x4x4">4x4x4</option>
+                <option value="4x4x4">5x5x5</option>
+                <option value="4x4x4">6x6x6</option>
+                <option value="4x4x4">7x7x7</option>
+              </select>
+          </li>
+          <li>
+            <select class='price'>
+                <option value="0">Price</option>
+                <option value="100-500">100-500</option>
+                <option value="600-1000">600-1000</option>
+                <option value="1000-3000">1000-3000</option>
+                <option value="3000-7000">3000-6000</option>
+              </select>
+          </li>
+          <li>
+            <select class='brand'>
+                <option value="0">Brand</option>
+                <option value="yuxin">YuXin</option>
+                <option value="gan">Gan</option>
+                <option value="moyu">Moyu</option>
+                <option value="mfjs">MFJS</option>
+                <option value="qiyi">QiYi</option>
+                <option value="yj">YJ</option>
+              </select>
+          </li>
+          <li><button id="search">Search</button></li>
+        </ul>
+        <button class="icon" id="toggle">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+        </button>
+      </nav>
+
+      <section class="main-container">
+
+      </section>
+
+      <footer>
+        <h3>Select the cube type, price range and brand of the cube and then click on search to get the best suggestions in those category (if not then an alert message will popup on your screen)</h3>
+        <h3>Note: if you see a blank screen then there are no cubes in the above selected combination</h3>
+        <h2>Note: This is the alpha version of this program!</h2>
+      </footer>
+      <!-- <img src="./images/yuxin1.jpg" alt=""> -->
+      <script src="script.js"></script>
+      <script src="cubeData.js"></script>
+      <script src="displayCard.js"></script>
+</body>
+</html>
