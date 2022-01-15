@@ -268,6 +268,469 @@ let cubeData = {
       // },
     ],
   },
-  "4x4x4": {},
-  "2x2x2": {},
+  "4x4x4": {
+    gan: [
+      {
+          name: 'GAN 460 4x4 Magnetic',
+          desc: 'The GAN 460 is the highly anticipated 4x4 from GAN featuring a new magnetic positioning system and rounded pieces. It has a crunchy and fast feel, which gives it a tremendous speed and feel in its outer layers.',
+          price: 4999,
+          link: 'null'
+      },
+      
+    ],
+    moyu: [
+      {
+        name: 'MoYu RS4M 4x4 Magnetic',
+        desc: 'MoYu RS4M is ready to hit the market with its innovative dual adjustment system and magnetic positioning system. All magnets are completely aligned so that this magnetic cube has more control and good hand speed. It also features fault tolerance performance for fast rotation even when the rotation angle is not in place, which also easy rotations. Anti-stick grooves ensure stability while properly reducing the contact area. Half bright color scheme gives the cube clear contrast and better experience.',
+        price: 1289,
+        link: 'null'
+    },
+    {
+      name: 'MoYu AoSu WR M 4x4 Magnetic',
+      desc: 'The AoSu WR M has the 59mm size, which is smaller than regular 4x4s, making it more controllable and speed up your solves. Fully optimized anti-sticky slots on the contact surfaces, which can reduce friction efficiently and bring a lighter feeling. This improvement can keep the original feeling after long-time practice.',
+      price: 3799,
+      link: 'null'
+  },
+    ],
+    mfjs: [
+      {
+        name: 'MFJS Meilong 4M 4x4 (Magnetic)',
+        desc: 'The MFJS Meilong 4M 4x4 Stickerless (Magnetic) is a new release from MFJS. It is fast and controllable out of the box. It offers great performance, lightweight design, and a stickerless-matte surface finish appealing to the eyes. This is an excellent choice for all skill levels. It offers great performance and a medium/light magnetic feel.',
+        price: 999,
+        link: 'null'
+    },
+    
+    ],
+    yj: [
+      {
+        name: 'YJ MGC 4x4 Magnetic',
+        desc: 'The YJ MGC 4x4 Magnetic is one of the latest products. This puzzle offers flagship performance at a fraction of a flagship price. The addition of medium-strength magnets assists with overall stability and control to improve your solving experience! The overall performance of this cube flows extremely well and has been allowing cubers to achieve new personal best times with ease!',
+        price: 1729,
+        link: 'null'
+    },
+    ],
+    qiyi: [
+      {
+        name: 'QiYi QiYuan 4x4',
+        desc: 'The QiYi QiYuan 4x4 is a new, lightweight speed cube with a very low price point. It feels stable yet smooth right out of the box. The QiYuan has an equal performance on both the inner and outer layers with a smooth and fast feel. The stable feeling is really what sets this 4x4 apart from others in its class. Great as an inexpensive first 4x4 for beginners.',
+        price: 499,
+        link: 'null'
+    },
+    {
+      name: 'QiYi MS 4x4 Magnetic',
+      desc: 'The QiYi MS 4x4 Magnetic is an incredible budget 4x4 from "MS" series! This cube has fast, crispy, and smooth magnetic feel.This Cube is also exceeding expectations and offers a surprisingly high level of quality and performance. This puzzle is one of the most impressive economic releases we have seen. This puzzle is sure to please speedcubers around the world from beginner to advanced levels.',
+      price: 999,
+      link: 'null'
+  },
+  {
+    name: 'QiYi X-Man Ambition Magnetic 4x4',
+    desc: 'The X-Man Ambition 4x4 M is designed by Jim Zhang of X-Man Design. It is the latest and greatest flagship from X-Man Designs, a sub-brand of QiYi. The Ambition product series has been in development for many years with the focus on improving on the previous designs of 4x4. Compact and light, the Ambition feels buttery and soft to turn while retaining high stability which makes it fit for just about every cuber! The Ambition allows you to push the limits of your solves more than ever before.',
+    price: 2349,
+    link: 'null'
+},
+{
+  name: 'QiYi Thunderclap 4x4',
+  desc: 'The QiYi Thunderclap 4x4 Cube is a new, highly-anticipated release in the Thunderclap line by QiYi MoFangGe. Every layer of this puzzle is smooth and buttery out of the box with extreme controllability. After slight adjusting and lubrication, corner-cutting is enhanced and the chances of locking up are decreased. This 4x4 is the perfect choice for any speedcuber and even stacks up against higher-end competitors. Like the other cubes in the thunderclap series, the Thunderclap 4x4 delivers on premium performance and features at a mid-tier price.',
+  price: 629,
+  link: 'null'
+},
+{
+  name: 'QiYi Valk 4 M 4x4 Strong Magnetic',
+  desc: 'The Valk 4 M is the first 4x4 in the iconic Valk line. It measures a compact 60mm across, making it more comfortable to hold and turn. When turning each layer slowly, the cube has a very comfortable, stable smoothness. When turning faster, there is a pleasant, slight hint of crunchiness.',
+  price: 3329,
+  link: 'null'
+},
+{
+  name: 'QiYi MP 4x4 Magnetic',
+  desc: 'The QiYi MP series is a brand new line of puzzles from QiYi that aims to offer a high quality product at a reasonable price. With black internals, visible magnets and bright glossy stickerless plastic for the entire series you can expect a premium build quality. With smooth and accurate turning right out of the box this puzzle is ready to go.',
+  price: 1699,
+  link: 'null'
+},
+{
+  name: 'QiYi WuQue 4x4',
+  desc: 'The QiYi MoFangGe WuQue 4x4 is the latest 4x4 to hit the market. At 62mm across and only 127 grams for the version, the WuQue is noticeably lighter than other mainstream 4x4\'s of the same size. It features a variety of design improvements that are aimed at making the WuQue one of the top 4x4\'s on the market, and a pre-release version was already used to set a new Asian record.',
+  price: 1369,
+  link: 'null'
+},
+    ]
+  },
+
+  "2x2x2": {
+    yuxin: [
+      {
+        name: 'YuXin Little Magic 2x2',
+        desc: 'The YuXin Little Magic 2x2 is an all-new 2x2 from YuXin at a very economical and inexpensive price point. With a lightweight design and a frosted exterior, it is designed to feel similar to a high-end 2x2 for a fraction of the price. Super light, super fast. It may need to be  loosen a few turns to unlock better corner cutting.',
+        price: 329,
+        link: 'null'
+      },
+      {
+        name: 'YuXin Little Magic 2x2 Magnetic',
+        desc: 'YuXin Little Magic 2x2 is the latest magnetic 2x2 devloped by YuXin. The YuXin Little Magic 2x2 Magnetic is a fast, smooth and sandy feeling 2x2 that retains the feel of its 3x3 counterpart. Now available in a factory magnetized version. This puzzle is sure to please speedcubers around the world from beginner to advanced levels.',
+        price: 599,
+        link: 'null'
+      },
+      {
+        name: 'YuXin Little Magic 2x2 v2 M',
+        desc: 'The new Little Magic V2M 2x2 from Yuxin brings an updated more modern design to the puzzle which gives improved performance and turning stability. Available in Stickerless (Bright) plastic and black internals. It features an updated mechanism and a crosshatch design on the contact surfaces to improve lubricant spread.',
+        price: 599,
+        link: 'null'
+      },
+    ],
+    yj: [
+      {
+        name: 'YJ YuPo v2 M 2x2 Magnetic',
+        desc: 'The YJ YuPo v2 M 2x2 magnetic is a budget-friendly magnetic 2x2 from YJ. This puzzle turns well right out of the box. It features a medium magnetic feel that is sure to please beginners and professional solvers alike.',
+        price: 629,
+        link: 'null'
+      },
+      {
+        name: 'YJ MGC 2x2 Magnetic',
+        desc: 'The YJ MGC 2x2 is the second cube in the MGC line. This 2x2 has a strong magnetic feel with smooth, light turning. Like other MGC cube, this version is also exceeding expectations and offers a surprisingly high level of quality and performance.',
+        price: 929,
+        link: 'null'
+      },
+      {
+        name: 'YJ MGC2 Elite 2x2 Magnetic',
+        desc: 'YJ MGC Elite 2x2 Magnetic is one of the latest magnetic products by YJ. The 2x2 is a new, lightweight speed cube with a center-edge magnetic system which provides more control during the solve. The overall performance of this cube flows extremely well and has been allowing cubers to achieve new personal best times with ease!',
+        price: 1245,
+        link: 'null'
+      },
+    ],
+    qiyi: [
+      {
+        name: 'QiYi MP 2x2 Magnetic',
+        desc: 'QiYi MP 2x2 Magnetic is part of QiYi\'s new mid-range series. The QiYi MP 2x2 M is a magnetic 2x2 with a smooth feel. The magnets on this cube are on the stronger side, but feel good on turning.',
+        price: 1199,
+        link: 'null'
+      },
+      {
+        name: 'QiYi X-Man Flare 2x2 (Magnetic)',
+        desc: 'QiYi releases its new magnetic 2x2 by its sub-brand, X-man design. The corner rounding design provides excellent corner-cutting and you get the smoothest turning feel. But the key feature of this puzzle is its adjustable magnetic system, adjustable switches provide three magnetic settings light, moderate and strong which can be adjusted according to your hand feel just by toggling it.',
+        price: 1289,
+        link: 'null'
+      },
+      {
+        name: 'QiYi MS 2x2 Magnetic',
+        desc: 'The QiYi MS 2x2 Magnetic is an incredible budget 2x2 from "MS" series! This 2x2 has a strong magnetic feel with smooth, light turning. Unique, "hollow" turning feel, which is one of our favorite features of the MS 2x2! This version is also exceeding expectations and offers a surprisingly high level of quality and performance. This puzzle is one of the most impressive economic releases we have seen. This cube is easily one of the best value options for beginners and advanced solvers.',
+        price: 589,
+        link: 'null'
+      },
+    ],
+    moyu: [
+      {
+        name: 'MoYu WeiPo WR S 2x2 Magnetic',
+        desc: 'The new MoYu WeiPo WR S Magnetic 2x2 is a new competition ready 2x2 made for speedcubers who take this event seriously. WeiPo WRS is a flagship 2x2 with magnetic adjustment system, highly customizable with a unique turning feel.',
+        price: 1349,
+        link: 'null'
+      },
+      {
+        name: 'MoYu RS2M 2x2 Magnetic',
+        desc: 'MoYu RS2M is ready to hit the market with its innovative dual adjustment system and magnetic positioning system. All magnets are completely aligned so that this magnetic cube has more control and good hand speed. It also features fault tolerance performance for fast rotation even when the rotation angle is not in place, which also means easy rotations. Anti-stick grooves ensure stability while properly reducing the contact area. Half bright color scheme gives the cube clear contrast and better experience.',
+        price: 729,
+        link: 'null'
+      },
+      {
+        name: 'GuoGuan Xinghen TSM 2x2 (Magnetic)',
+        desc: 'GuoGuan has released its new magnetic 2x2 cube, Xinghen TSM where TS stands for three size. The key feature of this cubes is its unique size adjustment mechanism. You can pull out the corner piece with the help of adjusting tool and assemble it back with any size according to your comfort. The 3 sizes are 50 mm, 50.75 mm and 51.5 mm. Also it is factory magnetized with moderate magnets suitably placed for controllable and comfortable solving. Corner cutting is about 55 degrees whereas inverse corner cutting is 35 degrees.',
+        price: 1289,
+        link: 'null'
+      },
+      {
+        name: 'MoYu WeiPo WR M 2x2 Magnetic',
+        desc: 'The WeiPo WR M has 50mm size, making it more controllable. Suitably placed magnets give it a very stable and comfortable feeling cube. It has fully optimized anti-sticky slots on the contact surfaces, which can reduce friction efficiently and bring a lighter feeling. MoYu has come up with some adjusted colors of the original half-bright stickerless shade, providing a better look-ahead and visual recognition. The upgraded mechanism makes sure that you never miss a turn.',
+        price: 1779,
+        link: 'null'
+      },
+    ],
+    mfjs: [
+      {
+        name: 'MFJS Meilong 2M 2x2 Magnetic',
+        desc: 'The MFJS Meilong 2M Magnetic 2x2 is a new release from MFJS. It is a Fully magnetized 2x2 speed cube with 48 magnets installed. It features lightweight design, and a stickerless-matte surface finish. This is an excellent choice for all skill levels. It offers great performance and a medium/light magnetic feel.',
+        price: 599,
+        link: 'null'
+      },
+      {
+        name: 'MFJS MeiLong 2x2',
+        desc: 'MeiLong is a new series of MoYu sub-brand Cubing Classroom. The 2x2 turns smooth out of the box, and it is a little light as compared to other 2x2 cubes. The cube has a size of 50mm, more controllable, easier to hold and grip.',
+        price: 299,
+        link: 'null'
+      },
+    ],
+    gan: [
+      {
+        name: 'GAN 251 M PRO 2x2 (Magnetic)',
+        desc: 'The GAN 251 M Pro 2x2 is a 2021 update that builds upon everything you loved in the previous GAN 251. Featuring a brand new innovative core magnetic positioning system gives this puzzle a more stable and precise turning experience than ever before.',
+        price: 1949,
+        link: 'null'
+      },
+    ],
+  },
+
+  "5x5x5": {
+    mfjs: [
+      {
+        name: 'MFJS Meilong 5M 5x5 Magnetic',
+        desc: 'The MFJS Meilong 5M 5x5 Stickerless (Magnetic) is a new release from MFJS. It is fast and controllable out of the box. It offers great performance, a lightweight design, and a stickerless-matte surface finish. This is an excellent choice for all skill levels.',
+        price: 1049,
+        link: 'null'
+      },
+
+      {
+        name: 'MFJS MeiLong 5x5',
+        desc: 'MFJS Meilong 5x5 is the newest entrant in the 5x5 segment. Made with eco-friendly ABS material this cube has Multi Turning Track and the anti-pop-up performance has also been enhanced. It comes with a Frosted Surface which makes it comfortable to hold. The stable structure makes it one of the finest cube for 5x5 speedcubing enthusiasts. An optimized positioning system prevents the lock-up issue. With a size of 59mm, this cube is more controllable and easier to hold and grip.',
+        price: 579,
+        link: 'null'
+      },
+    ],
+    moyu: [
+      {
+        name: 'MoYu AoChuang WR M 5x5 Magnetic',
+        desc: 'The  MoYu AoChuang 5x5 WR M is a new entry-level series of MoYu.The AoChuang WRM has a 61.5 mm size, which is smaller than regular 5x5s, making it more controllable. The optimized multi-inner-circle internal feet improve the cube’s anti-pop performance and strengthen the mechanism, which is an innovative design on this cube. The new reverse orbit mechanism greatly improves the anti-popping capabilities, It has fast and smooth turning and also good corner-cutting. it can be an excellent choice for cubers.',
+        price: 3999,
+        link: 'null'
+      },
+    ],
+    qiyi: [
+      {
+        name: 'QiYi MP 5x5 Magnetic',
+        desc: 'The QiYi MP series is a brand new line of puzzles from QiYi that aims to offer a high quality product at a reasonable price. The QiYi MP 5x5 M is one of the softest 5x5s we have ever felt. With a medium/strong magnetic feel, a glossy outer finish, and extremely smooth turning, there is not a lot about this cube that we do not like. With black internals, visible magnets and bright glossy stickerless plastic for the entire series you can expect a premium build quality. With smooth and accurate turning right out of the box this puzzle is ready to go. ',
+        price: 1949,
+        link: 'null'
+      },
+      {
+        name: 'QiYi MS 5x5 Magnetic',
+        desc: 'The QiYi MS 5x5 Magnetic is an incredible budget 5x5 from "MS" series! This cube is naturally fast, crispy, and smooth magnetic feel.This Cube is also exceeding expectations and offers a surprisingly high level of quality and performance. This puzzle is one of the most impressive economic releases we have seen. This 5x5 stands out as an excellent speed cube for both beginners and advanced cubers.',
+        price: 1149,
+        link: 'null'
+      },
+      {
+        name: 'QiYi QiZheng 5x5',
+        desc: 'The QiYi QiZheng 5x5 is a new entry-level 5x5 with many modern design features at a great price. This 5x5 is slightly smaller than the standard size which may be more appealing for some cubers. Each layer is very "swishy" and corner-cutting is improved due to the larger Florian holes.',
+        price: 529,
+        link: 'null'
+      },
+      {
+        name: 'QiYi Valk 5M 5x5 Magnetic',
+        desc: 'The Valk 5 M is the first 5x5 cube in the Valk speed-cubing series introduced by QiYi. This magnetic 5x5 by QiYi, features medium/strong magnets, primary internals, and fantastic corner-cutting. Max Park, the reigning 5x5 WR holder broke the world record for single and average of five 5x5 solves with Valk 5 M getting the first sub-40 official times.',
+        price: 3599,
+        link: 'null'
+      },
+    ],
+    yj: [
+      {
+        name: 'YJ MGC 5x5 Magnetic',
+        desc: 'YJ MGC 5x5 Magnetic uses magnet slots to hold 96 magnets firmly in place. The core stress point guarantees precise positioning, elaborate magnetic force, and elasticity. The ultra-small inner garden with a diameter of 26mm makes the internal rotational torque smaller, this enhances overall stability and better fault tolerance. For the first time, it has applied the center column upward design to the high platform square, and the center has no bottom column.',
+        price: 1699,
+        link: 'null'
+      },
+    ],
+  },
+
+  "6x6x6": {
+    mfjs: [
+      {
+        name: 'MFJS MeiLong 6x6',
+        desc: 'MFJS MeiLong 6x6 is the latest cube in the 6x6 segment. Made with eco-friendly ABS material, this cube has Anti-Pop and Anti-Sticky Design with Frosted Surface which makes it comfortable to hold. The adjustable elasticity and stable structure makes it one of the finest cubes in 6x6 speedcubing. An optimized positioning system prevents the lock-up issue.',
+        price: 999,
+        link: 'null'
+      }
+    ],
+    qiyi: [
+      {
+        name: 'QiYi X-Man Shadow v2 M 6x6 (Magnetic)',
+        desc: 'QiYi X Man Shadow v2 M 6x6 is an upgrade version of its previously released 6x6 X Man Shadow M and is more compact much lighter and more stable. The magnetic positioning of 144 magnets provides a convenient and faster cubing experience. It also features an optimized structure to decrease lock ups and to provide great corner cutting and tolerance. If you are looking for a reliable, top of the line 6x6, this could be it!',
+        price: 3799,
+        link: 'null'
+      },
+      {
+        name: 'QiYi QiFan S v2 6x6 Stickerless',
+        desc: 'The QiYi QiFan S v2 6x6 is an impressive 6x6 and is upgrade of its previous version. The QiFan is the perfect option for beginning/advanced solvers or even someone who is just looking for a very cost-effective 6x6. Apart from being budget friendly this cube features vibrant bright stickerless shades and smooth turning out of the box!',
+        price: 999,
+        link: 'null'
+      },
+      {
+        name: 'QiYi QiFan 6x6',
+        desc: 'The QiYi QiFan 6x6 is an impressive item, to say the least. The QiFan is the perfect option for beginning/advanced solvers or even someone who is just looking for a very cost-effective 6x6. This puzzle has many modern features like Florian style pieces and a capped design. It also offers smooth turning and reasonable corner-cutting.',
+        price: 1069,
+        link: 'null'
+      }
+    ],
+    yj: [
+      {
+        name: 'YJ YuShi v2 M 6x6 Magnetic',
+        desc: 'This is the first time YJ has launched a magnetic 6x6 cube. This YuShi 6x6 cube is the brand new cube with a new logo, package, and kernel. The internal mechanism includes unerring magnetic for positioning, double corner feet, and deep anti-sticky mechanism. The cube is designed with the multiple inner hole mechanism that enlarges the contact of the face, enhances the stability during turning and avoids the layers\' confusion. The deep anti-sticky structure makes the performance of the cube outstanding. And the structure of the inner core is designed in such a way that it will avoid the pigment effect from the friction surface.',
+        price: 1399,
+        link: 'null'
+      },
+    ],
+  },
+
+  "7x7x7": {
+    yj: [
+      {
+        name: 'YJ MGC 7x7 (Magnetic)',
+        desc: 'MGC 7x7 is magnetized with 144 magnets, providing a controllable and stable turning experience. Segmented internal structure enhances the stable turning and equilateral core design puts the lock-up issue to end.  The outer layer is widened for improved stability of turning and its lighter weight improves hand gripping and speed solving performance. It is available in both stickerless and black version. Overall performance of the cube is great and it doesn\'t matter, whether you are a beginner or advanced cube solver, this cube is for everyone.',
+        price: 3149,
+        link: 'null'
+      },
+
+      {
+        name: 'YJ YuFu v2 M 7x7 Magnetic',
+        desc: 'The YJ YuFu V2 M 7x7 is a new budget-friendly magnetic 7x7 from YJ. The extremely smooth outer layers, mixed with a medium to light magnetic feel, make this puzzle a pleasure to turn. This is an excellent choice for all skill levels. This is an excellent choice for all skill levels.',
+        price: 1549,
+        link: 'null'
+      },
+    ],
+    qiyi: [
+      {
+        name: 'QiYi QiXing W 7x7 Black',
+        desc: 'The QiXing W 7x7 is an upgrade to QiYi\'s budget 7x7 line. Emphasized on upgrade, this new version is a nice improvement over its predecessor and is a great example of a good quality 7x7 at a low price point. With many modern features, compact size, fitted half-bright stickers, it gives you smooth turning. It will be a great choice for someone who wants to get into the event.',
+        price: 1229,
+        link: 'null'
+      },
+      {
+        name: 'QiYi QiXing S2 7x7 Stickerless',
+        desc: 'The QiYi QiXing S2 7x7 is a new entry-level 7x7 and is an upgrade of its previous version QiYi QiXing S 7x7. With many upgraded features such as flexible and easy to control size design and optimized big corner design for superior corner cutting makes it a great choice for big cube starters.',
+        price: 1229,
+        link: 'null'
+      },
+      {
+        name: 'QiYi QiXing S 7x7',
+        desc: 'The QiYi QiXing S 7x7 is a new entry-level 7x7 that has just hit the market. With many modern features, compact size, and a very affordable price, the QiXing 7x7 is expected to make the 7x7 puzzle event more accessible to all speedcubers of all ages.',
+        price: 1179,
+        link: 'null'
+      },
+    ],
+    mfjs: [
+      {
+        name: 'MFJS MeiLong 7x7',
+        desc: 'MFJS Meilong 7x7 is the latest cube in the 7x7 segment. Made with eco-friendly ABS material this cube has Anti-Pop and Anti-Sticky Design with Frosted Surface which makes it comfortable to hold. The adjustable elasticity and stable structure makes it one of the finest cube in 7x7 speedcubing. An optimized positioning system prevents the lock-up issue.',
+        price: 1069,
+        link: 'null'
+      },
+    ],
+  },
+
+  "pyraminx": {
+    'gan': [
+      {
+        name: 'GAN Pyraminx Magnetic',
+        desc: 'Gan introduces its new and brilliant GAN Pyraminx. With the novel Core Positioning Magnetic System and GES nuts it’s first of its kind. Its light weight and classic Honeycomb design makes the cube comfortable to hold and gives easy and smooth turning. It also features excellent corner cutting of 120 degrees which makes sure there are no more lock ups.',
+        price: 1779,
+        link: 'null'
+      }
+    ],
+    'mfjs': [
+      {
+        name: 'MFJS Meilong Pyraminx',
+        desc: 'The MoYu Meilong Pyraminx is a new MoYu sub-branded pyraminx in the Cubing Classroom series. They are low cost, good quality puzzles. The MeiLong Pyraminx puzzle is a decent take on the classic puzzle. The Cubing Classroom series offers many premium design features at a low price point, and it is most ideal for beginning cubers.',
+        price: 349,
+        link: 'null'
+      }
+    ],
+    'moyu': [
+      {
+        name: 'MoYu Pyraminx',
+        desc: 'This MoYu Pyraminx will be one of the best Pyraminx on the market. Brand new MoYu Pyraminx Speed Cube Black. The MoYu Pyraminx is the first pyraminx release from popular speed cube manufacturer MoYu. It features ball bearings to help the pieces click into place. It has a very smooth turning, great corner-cutting and anti-pop function. Great for speedcubing.',
+        price: 499,
+        link: 'null'
+      }
+    ],
+    'qiyi': [
+      {
+        name: 'QiYi QiMing Pyraminx',
+        desc: 'The QiYi QiMing Pyraminx is a new entry-level pyraminx that has just hit the market. With many modern features and a very affordable price, the QiMing Pyraminx is expected to make the pyraminx puzzle event more accessible to all speedcubers of all ages.',
+        price: 579,
+        link: 'null'
+      },
+      {
+        name: 'QiYi QiMing-A Pyraminx',
+        desc: 'The QiYi QiMing-A Pyraminx is QiYi\'s solution to a cheaper pyraminx. The QiMing-A is made of more smooth and matte plastic and has extremely swishy movements. The tips do not snap into place as much as other pyraminx and the inner layers are not as snappy as other models which may be good for some solvers.',
+        price: 459,
+        link: 'null'
+      },
+      {
+        name: 'QiYi MS Pyraminx Magnetic',
+        desc: 'The QiYi MS Magnetic Pyraminx is the first pyraminx in "MS" series!  Featuring a frosted surface, vibrant colors, and controllable turning. This cube is naturally fast, crispy, and smooth. This is a great option if you are looking for an inexpensive yet reliable Pyraminx.',
+        price: 729,
+        link: 'null'
+      },
+      {
+        name: 'QiYi X-Man Bell Pyraminx v2 (Magnetic)',
+        desc: 'This X-Man Bell v2 Pyraminx is a magnetized Pyraminx which changes the entire feel of the pyraminx. The magnets provide additional control to ensure that the pyraminx gives satisfying feedback and click feel as the pieces link into place. It has two tiers of magnet adjustment. First, magnets can be added to the tips. Tips rotate satisfyingly into position. you can use the included magnets to adjust tip strength. Second, the distance between the internal magnets can be adjusted by turning a dial inside the puzzle\'s pieces.',
+        price: 1199,
+        link: 'null'
+      }
+    ],
+  },
+
+  "skewb": {
+    'gan': [
+      {
+        name: 'GAN Skewb Magnetic',
+        desc: 'The most awaited GAN Magnetic Skewb is now here. It features lots of recently released GANs innovative features such as magnetic core positioning, GES tensioning system, honeycomb design, etc. This cube has already got recognition from top-ranking speedcubers. Perfect corner-cutting provides smooth rotation and will surely make you forget about the lockups. This Skewb comes in two versions Standard and Enhanced. The Enhanced version of this puzzle features a more advanced magnetic positioning system.',
+        price: 2049,
+        link: 'null'
+      },
+      {
+        name: 'GAN Monster Go Skewb',
+        desc: 'Monster Go Skewb from Gan with high quality and bright colours. This Skewb is perfect for speedcubing. Its exterior design, in stickerless matt, has some similarity with the Gan cubes. It is a non-magnetic skewb that uses small protrusions and slots for alignment. It has frosted plastic, and comes with green GES installed for tensioning. It has a Firm Structure Hardly POP with symmetry locked clips design. Inserted nuts, with two distances: Big distance-Loose, Small distance-Tight.',
+        price: 699,
+        link: 'null'
+      },
+    ],
+    'mfjs': [
+      {
+        name: 'MFJS MeiLong Skewb',
+        desc: 'The MFJS MeiLong Skewb is a new entry-level skewb that has just hit the market. With many modern features and a very affordable price, the MeiLong Skewb is expected to make the skewb puzzle event more accessible to all speedcubers of all ages.',
+        price: 399,
+        link: 'null'
+      },
+    ],
+    'moyu': [
+      {
+        name: 'MoYu AoYan Skewb Magnetic',
+        desc: 'The MoYu AoYan Skewb features vibrant bright shades, with large gaps between the pieces for improved corner-cutting, and a subtle, but noticeable magnetic feel. This skewb also comes with replacement, concave center caps to improve grip and make tuning more stable.',
+        price: 1599,
+        link: 'null'
+      },
+    ],
+    'qiyi': [
+      {
+        name: 'QiYi X-Man Wingy Skewb Magnetic',
+        desc: 'The X-Man Wingy Magnetic Skewb is the latest cube release from X-Man Designs and the first concave skewb to hit the market. The concave design helps with grip and is equipped with 24 magnets with adjustable positioning. The movement of these items is buttery smooth and the magnets add stability.',
+        price: 1199,
+        link: 'null'
+      },
+    ]
+  },
+
+  "square1": {
+    'qiyi': [
+      {
+        name: 'QiYi QiFa Square-1',
+        desc: 'The QiYi QiFa Square-1 Cube is a smooth, stable square-1 cube at an affordable price. This is the first entry-level square-1 to be released from QiYi and it features the popular "frosted" plastic for the Stickerless variant which improves grip and looks spectacular. When using the QiFa, you can expect smooth layer rotations and very controllable speed. This cube is sure to be popular with beginner and intermediate solvers alike.',
+        price: 599,
+        link: 'null'
+      },
+    ],
+    'yj': [
+      {
+        name: 'YJ MGC Square-1 Magnetic',
+        desc: 'The YJ MGC Square-1 M is an exciting square-1 puzzle from YJ, the maker of the highly successful MGC line. The MGC series from YJ is widely regarded as a premium puzzle series, without the premium price tag and the SQ-1 is no exception!',
+        price: 1499,
+        link: 'null'
+      },
+    ],
+    'yuxin': [
+      {
+        name: 'YuXin Little Magic Square-1',
+        desc: 'The Yuxin Little Magic Square-1 is a budget-friendly square-1 that is buttery feeling and turns well right out of the box. At 57mm tall and 55mm wide, this puzzle is larger than other top square-1s. This square-1 has a more sturdy design without sacrificing performance.This puzzle is larger than other top square-1s. The cube edges are smooth to give an immense cubing experience.',
+        price: 459,
+        link: 'null'
+      },
+    ]
+  },
+
+
 };

@@ -25,6 +25,8 @@ brand.addEventListener('change', () => {
   cubeBrand = brand.value;
 })
 
+
+
 function displayCubes(cubeType, cubeBrand, cubePrice) {
     //console.log(cubePrice);
    try{
@@ -41,7 +43,21 @@ function displayCubes(cubeType, cubeBrand, cubePrice) {
    }
   }
 
+  function displayAllCubes() {
+    for(let i in cubeData) {
+      //console.log(i)
+
+      for(let j in cubeData[i]) {
+        //console.log(j);
+
+        cubeData[i][j].map(p => displayCard(p.link, p.name, p.price, p.desc))
+      }
+    }
+  }
+
   search.addEventListener('click', () => {
       document.querySelector('.main-container').innerHTML = '';
     displayCubes(cubeType, cubeBrand, cubePrice)
    });
+
+   window.onload = displayAllCubes();
