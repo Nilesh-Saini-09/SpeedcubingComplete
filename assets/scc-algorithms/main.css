@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #efedd6;
+  background-color: #fafafa;
   font-family: Nunito, sans-serif;
 }
 
@@ -269,6 +269,22 @@ section#home a {
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
   transition: transform 0.4s ease;
+}
+
+#resources .box1 {
+  background-color: rgba(248, 25, 25, 0.911);
+}
+#resources .box2 {
+  background-color: rgba(57, 57, 243, 0.911);
+}
+#resources .box3 {
+  background-color: rgba(235, 235, 21, 0.925);
+}
+#resources .box4 {
+  background-color: var(--navColor1);
+}
+#resources .box5 {
+  background-color: rgba(243, 163, 16, 0.938);
 }
 
 #resources .box:nth-of-type(even) {

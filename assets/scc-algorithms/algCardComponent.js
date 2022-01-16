@@ -15,7 +15,7 @@ function algCard(image, algs) {
     </div>
                           
     <div class="card-link">
-      <a href="#" title="Video">
+      <a href="https://www.youtube.com/channel/UC1mKM2CET5iQ4jE5RN6uhLg" title="Tutorial">
         <span>Youtube</span>
       </a>
     </div>
