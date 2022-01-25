@@ -2,6 +2,7 @@ var msDisplay = document.querySelector("#milliSec");
 var secDisplay = document.querySelector("#second");
 var minDisplay = document.querySelector("#minute");
 var minColon = document.querySelector("#minColon");
+var displayTimeContainer = document.querySelector('.display-time-container');
 var displayTime = document.querySelector("#displayTime");
 var displayReset = document.querySelector("#displayReset");
 var timeList = document.querySelector("#listOfTime");
@@ -54,31 +55,6 @@ switch (puzzleSelect) {
   default:
     scrambleGen3();
 }
-
-newScramGenerate.addEventListener("click", function () {
-  switch (puzzleSelect) {
-    case "2":
-      scrambleGen2();
-      break;
-    case "3":
-      scrambleGen3();
-      break;
-    case "4":
-      scrambleGen4();
-      break;
-    case "5":
-      scrambleGen5();
-      break;
-    case "6":
-      pyraminx();
-      break;
-    case "7":
-      skewb();
-      break;
-    default:
-      scrambleGen3();
-  }
-});
 
 var running = false;
 var milliSec = 0;
@@ -200,12 +176,7 @@ function view() {
   }
 }
 
-<<<<<<< HEAD
-=======
 
-displayTime.addEventListener('click', run);
-
->>>>>>> deploy
 // Snackbar function
 function snackbar() {
   // Get the snackbar DIV
@@ -220,13 +191,10 @@ function snackbar() {
   }, 3000);
 }
 
-displayTime.addEventListener("click", run);
-
-<<<<<<< HEAD
-=======
-
->>>>>>> deploy
+displayTimeContainer.addEventListener("click", run);
 // timer will work when the key goes up
+
+
 
 // window.onkeyup = run;
 window.addEventListener("keyup", (e) => {
@@ -236,6 +204,11 @@ window.addEventListener("keyup", (e) => {
     //snackbar();
   }
 });
+
+
+
+//document.querySelector('.split-left').addEventListener('click', run);
+
 timeList.onload = view();
 timeList.scrollTop = timeList.scrollHeight;
 
@@ -337,6 +310,31 @@ function formatTime(t) {
   return out;
 }
 
+newScramGenerate.addEventListener("click", function () {
+  
+  switch (puzzleSelect) {
+    case "2":
+      scrambleGen2();
+      break;
+    case "3":
+      scrambleGen3();
+      break;
+    case "4":
+      scrambleGen4();
+      break;
+    case "5":
+      scrambleGen5();
+      break;
+    case "6":
+      pyraminx();
+      break;
+    case "7":
+      skewb();
+      break;
+    default:
+      scrambleGen3();
+  }
+});
 
 
 window.addEventListener(

@@ -130,8 +130,18 @@
   height: 100px;
   font-size: 5em;
   margin-left: 10%;
-  /* background-color: red; */
+  /* background-color: yellow; */
   font-family: "Archivo Black", sans-serif;
+  user-select: none;
+}
+
+.display-time-container {
+  width: 100vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
 }
 
 .footer-container {
@@ -332,11 +342,14 @@ a:focus {
   .footer-container {
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     height: 33%;
   }
 
   .footer-container .broughtBy {
     text-align: center;
+    align-self: center;
   }
 }
 
